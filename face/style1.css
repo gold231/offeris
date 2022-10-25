@@ -1,0 +1,140 @@
+body                    {   margin-top: -14px;  }
+body,td,th,pre		{	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+                                font-size: 11px;
+                                color: black; ﻿white-space: pre-line;
+                                
+                        }
+a			{	text-decoration: none;	color:rgb(0,0,255); font-weight:bold;}
+
+h1  {   font-size: 22px; font-weight: bold; }
+
+.infotable		{	border:0px; cellspacing:2px; cellpadding:0px;	}
+.infotable th	{	text-align:left; background-color:rgb(200, 200, 255);
+					padding:3px 5px;	}
+.infotable tr.even td	{	background-color:rgb(220,220,220);	}
+.infotable tr td	{	background-color:rgb(240,240,240); 	}
+.infotable tr.note	{ border-bottom: 1px dashed rgb(100, 100, 196); background-color: rgb(220, 220, 220); }
+
+
+.infotable tr:hover,
+.infotable tr.even:hover,
+.infotable tr:hover td,
+.infotable tr.even:hover td,
+.infotable tr.hover td,
+.infotable tr.hover {   background-color:rgb(220, 255, 220); }
+
+.infotable_white		{	border:0px; cellspacing:2px; cellpadding:0px;	}
+.infotable_white th	{	text-align:left; background-color:rgb(200, 200, 255);
+					padding:3px 5px;	}
+.infotable_white tr.even td	{	background-color:rgb(220,220,220);	}
+.infotable_white tr td	{	background-color:rgb(240,240,240); 	}
+
+.infotable_white tr:hover,
+.infotable_white tr.even:hover,
+.infotable_white tr:hover td,
+.infotable_white tr.even:hover td,
+.infotable_white tr.hover td,
+.infotable_white tr.hover {   background-color:rgb(255, 255, 255); }
+
+.infotable2		{	border:0px; cellspacing:2px; cellpadding:0px;	}
+.infotable2 th	{	text-align:left; background-color:rgb(200, 200, 255);
+					padding:3px 5px;	}
+.infotable2 tr td	{	border-bottom: 1px dashed rgb(200,200,255); 	}
+
+.infotable2 tr:hover,
+.infotable2 tr.even:hover,
+.infotable2 tr:hover td,
+.infotable2 tr.even:hover td,
+.infotable2 tr.hover td,
+.infotable2 tr.hover {   background-color:rgb(220, 255, 220); }
+
+
+.quotation		{	border:0px; cellspacing:2px; cellpadding:0px;	}
+.quotation th	{	text-align:left; background-color:rgb(200, 200, 255);
+                padding:3px 5px;	}
+
+.quotation tr:hover,
+.quotation tr.even:hover,
+.quotation tr.invoice_after_payment:hover,
+.quotation tr:hover td,
+.quotation tr.even:hover td,
+.quotation tr.invoice_after_payment:hover td,
+.quotation tr.hover td,
+.quotation tr.hover {   background-color:rgb(220, 255, 220); }
+					
+.quotation tr.product	{ border-bottom: 1px dashed rgb(100, 100, 196); }
+.quotation tr.free_item	{ border-bottom: 1px dashed rgb(100, 100, 196); }
+.quotation tr.note	{ border-bottom: 1px dashed rgb(100, 100, 196); background-color: rgb(220, 220, 220); }
+.quotation tr.sum	{ border-bottom: 1px dashed rgb(100, 100, 196); background-color: rgb(220, 255, 220); }
+
+.quotation tr.product_selected      { border-bottom: 1px dashed rgb(100, 100, 196); background-color: rgb(255, 220, 220); }
+.quotation tr.free_item_selected    { border-bottom: 1px dashed rgb(100, 100, 196); background-color: rgb(255, 220, 220); }
+.quotation tr.note_selected         { border-bottom: 1px dashed rgb(100, 100, 196); background-color: rgb(255, 220, 220); }
+.quotation tr.sum_selected          { border-bottom: 1px dashed rgb(100, 100, 196); background-color: rgb(255, 255, 220); }
+
+.catalogue		{	border:0px; cellspacing:2px; cellpadding:0px;	}
+.catalogue th	{	text-align:left; background-color:rgb(200, 200, 255);
+                padding:3px 5px;	}
+.catalogue tr:hover,
+.catalogue tr.even:hover,
+.catalogue tr.invoice_after_payment:hover,
+.catalogue tr:hover td,
+.catalogue tr.even:hover td,
+.catalogue tr.invoice_after_payment:hover td,
+.catalogue tr.hover td,
+.catalogue tr.hover {   background-color:rgb(220, 255, 220); }
+				
+.catalogue tr.note	{ background-color: rgb(220, 220, 220); }
+.catalogue tr.even	{ background-color: rgb(220, 220, 220); }
+
+.catalogue tr.catalogue_selected      {  background-color: rgb(255, 220, 220); }
+.catalogue tr.even_selected    {  background-color: rgb(255, 220, 220); }
+.catalogue tr.note_selected         {  background-color: rgb(255, 220, 220); }
+
+.edittable tr td	{	vertical-align: top; border-bottom: 1px dashed rgb(225, 200, 255);	}
+.column_description {	width:150px;	}
+.column_value		{	width:250px;	}
+.column_header		{	font-weight: bold; background-color: rgb(200, 200, 255); }
+.summary                {	font-weight: bold; background-color: rgb(255, 255, 200); }
+.borderedtable 	{	border: 1px solid rgb(200, 200, 255); border-spacing: 0px; padding:0px; }
+.borderedtable tr td	{	vertical-align: top; }
+.borderedtable tr th	{	background-color: rgb(200, 200, 255); font-weight: bold; padding-left: 16px; padding-right: 16px;}
+			
+.top_path a		{ font-weight: normal; }			
+							
+img				{	border:0px; }
+
+.buttons		{	border:0px; cellspacing:2px; cellpadding:0px;	}
+.buttons td		{	text-align:left; background-color:rgb(220, 220, 220); vertical-align:middle; font-weight:bold;
+					padding:3px 5px;	}
+					
+input			{	border: 1px solid rgb(100,100,196);		}
+.mandatory		{	background-color: rgb(255, 200, 200);	}
+textarea		{	border: 1px solid rgb(100,100,196);		}
+hr				{	height:1px; border: none 0;
+					border-top: 1px solid rgb(100,100,196);	}
+
+pre				{	padding: 0px;white-space:pre-line; margin:0px;	}
+
+.planttable		{	border: 0;	cellspacing:2px; cellpadding:0px;	}
+.planttable tr td	{	border:1px solid rgb(150,150,150);	}
+
+.headerbody		{	background-color: rgb(200, 200, 255); padding-left: 10px; padding-top: 0px; font-weight:bold;	}
+
+.login_header	{	 }
+
+.eclogo			{	color: rgb(0, 0, 196); font-size: 16px; font-family: Times New Roman; font-style: italic; font-weight: bold; text-align: right; padding-right: 20px; }
+
+.headertd		{	padding-right: 10px; padding-left: 10px; }
+.headertd_active	{	padding-right: 10px; padding-left: 10px; background-color: rgb(100,100,196); color: rgb(255, 255, 255); }
+.headertd_active a	{ color: rgb(255, 255, 255); }
+
+.left_menu		{	width: 150px;	}
+.left_menu td	{	font-size: 11px; color: rgb(50, 50, 50); 	}
+.left_menu td a	{	font-size: 11px; font-weight: normal; color: rgb(50, 50, 50);	}
+
+.top_logo a     {   font-weight: normal; }
+.top_logo       { background-color: rgb(255, 255, 255); }
+
+.infotable tr.invoice_after_payment td	{	background-color:rgb(255,200,200);	}
+.infotable tr.summary td	{	background-color:rgb(255,255,200);	}

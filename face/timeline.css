@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Niramit:300,300i,700");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 650px;
+    margin: 50px auto;
+}
+
+p {
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 4rem;
+    margin: 0 0 0 105px;
+    color: #37474f;
+}
+.timeline:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background: #96969c;
+}
+.timeline .timeline-container {
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+.timeline .timeline-container .timeline-icon {
+    position: absolute;
+    left: -53px;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2rem;
+    background: #4f537b;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.25);
+}
+.timeline .timeline-container .timeline-icon i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.timeline .timeline-container .timeline-icon img {
+    width: 20px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+.timeline .timeline-container .timeline-body {
+    background: #f8f8f8;
+    border-radius: 3px;
+    padding: 4px 20px 4px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.25);
+}
+.timeline .timeline-container .timeline-body:before {
+    content: "";
+    background: inherit;
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: -10px;
+    transform: rotate(45deg);
+    border-radius: 0 0 0 2px;
+}
+.timeline .timeline-container .timeline-body .timeline-title {
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+    font-size: 14px;
+    font-weight: 600;
+}
+.timeline .timeline-container .timeline-body .timeline-title .badge {
+    background: #4f537b;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.timeline .timeline-container .timeline-body .timeline-subtitle {
+    font-weight: 500;
+    font-style: italic;
+    opacity: 1;
+    margin: 0px;
+    font-size: 11px;
+}
+.timeline .timeline-container.primary .badge,
+.timeline .timeline-container.primary .timeline-icon {
+    background: #f8f8f8 !important;
+}
+.timeline .timeline-container.info .badge,
+.timeline .timeline-container.info .timeline-icon {
+    background: #11cdef !important;
+}
+.timeline .timeline-container.success .badge,
+.timeline .timeline-container.success .timeline-icon {
+    background: #00bf9a !important;
+}
+.timeline .timeline-container.warning .badge,
+.timeline .timeline-container.warning .timeline-icon {
+    background: #ff8d72 !important;
+}
+.timeline .timeline-container.danger .badge,
+.timeline .timeline-container.danger .timeline-icon {
+    background: #fd5d93 !important;
+}
+
+.author {
+    font-family: inherit;
+    padding: 3em;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.author a:link,
+.author a:visited {
+    color: white;
+}
+.author a:link:hover,
+.author a:visited:hover {
+    text-decoration: none;
+}
+.author .btn:link,
+.author .btn:visited {
+    margin-top: 1em;
+    text-decoration: none;
+    display: inline-block;
+    font-family: inherit;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: black;
+    padding: 1.5em 2rem;
+    border-radius: 1em;
+    transition: 0.5s all;
+}
+.author .btn:link:hover, .author .btn:link:focus, .author .btn:link:active,
+.author .btn:visited:hover,
+.author .btn:visited:focus,
+.author .btn:visited:active {
+    background-color: #1a1a1a;
+}
+.timeline-body p{
+    font-size: 13px;
+    font-weight: 500;margin-bottom: 5px;
+}
+.timeline-container .timeline-subtitle{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 0;position: absolute;
+    left: -130px;
+    top: 5px;
+
+}
+.timeline-more-content{
+    max-height: 0;
+    transition: max-height 500ms;
+    overflow: hidden;
+}
+.expand .timeline-more-content{
+    max-height: none;
+    transition: max-height 500ms;
+}
+.timeline-more-button{
+    text-align: center;
+    cursor: pointer;
+    color: #333;
+    opacity: 0.8;
+}

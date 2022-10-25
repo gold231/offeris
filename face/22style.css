@@ -1,0 +1,11 @@
+#showFilterSupplier{
+    display:none
+}
+.task-completed{
+    padding: 5px;
+    background: #0cbe5d;
+}
+
+.change{
+color: #ffffff;
+}
